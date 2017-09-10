@@ -1,4 +1,6 @@
 function transition = transition(distro)
+distro[1] = 0;
+distro[7] = 0;
 probability = [0,1,2,3,4,5,6,5,4,3,2,1]/36;
   transition = zeros(12,12);
   for i =2:12
